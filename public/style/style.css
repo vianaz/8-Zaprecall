@@ -100,7 +100,7 @@ main {
 .opcoes {
     display: flex;
     justify-content: space-evenly;
-    margin: 10px;
+    margin: 10px;;
 }
 .opcao {
     display: flex;
