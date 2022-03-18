@@ -5,21 +5,60 @@ body {
 	background-color: #fb6b6b;
 }
 .texto {
-	font-family: 'Recursive', sans-serif;
+	font-family: "Recursive", sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	
 	letter-spacing: -0.012em;
 }
 .vermelho {
-    background: #FF3030;
+	background: #ff3030;
 }
 .laranja {
-    background: #FF922E;
+	background: #ff922e;
 }
 .verde {
-    background: #2FBE34;
+	background: #2fbe34;
 }
+/* Estilos para home-page */
+.home-page {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.home-logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.home-logo > img {
+	width: 100px;
+	margin: 30px;
+}
+.home-logo > p {
+	font-family: "Righteous", cursive;
+	color: white;
+	font-weight: 500;
+	font-size: 45px;
+}
+.botao-recall {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	height: 60px;
+	background: #ffffff;
+	border: 1px solid #d70900;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	
+}
+.botao-recall > p {
+	color: #d70900;
+	font-size: 22px;
+}
+
 /* Estilos para o Header */
 header {
 	width: 100vw;
@@ -38,7 +77,7 @@ header {
 	width: 35px;
 }
 .titulo {
-    font-family: 'Righteous', cursive;
+	font-family: "Righteous", cursive;
 	color: white;
 	font-size: 35px;
 	display: flex;
@@ -63,33 +102,31 @@ main {
 	background: #ffffff;
 	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 	border-radius: 5px;
-    
 }
 .card > p {
-    font-weight: 700;
+	font-weight: 700;
 }
 .card-virado {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	background: #ffffd5;
 	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
 	border-radius: 5px;
-    width: 350px;
-    min-height: 130px;
-    margin: 8px;
+	width: 350px;
+	min-height: 130px;
+	margin: 8px;
 }
 .card-virado > p {
-    font-weight: 500;
-    margin: 15px;
-} 
+	font-weight: 500;
+	margin: 15px;
+}
 .card-virado > span {
-    margin: 15px;
-    display: flex;
-    justify-content: end;
+	margin: 15px;
+	display: flex;
+	justify-content: end;
 }
 .setinha {
-    
 }
 .card > p {
 	font-size: 18px;
@@ -98,22 +135,22 @@ main {
 	font-size: 30px;
 }
 .opcoes {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px;
 }
 .opcao {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
 }
 .opcao > p {
-    font-size: 14px;
-    color: white;
+	font-size: 14px;
+	color: white;
 }
 /* Estilos para Footer */
 footer {
@@ -128,6 +165,9 @@ footer {
 }
 
 /* Estilos/Animanções */
-.card:hover, .setinha:hover, .opcao:hover {
-    cursor: pointer;
+.card:hover,
+.setinha:hover,
+.opcao:hover,
+.botao-recall:hover {
+	cursor: pointer;
 }
