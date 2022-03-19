@@ -1,6 +1,9 @@
 * {
 	box-sizing: border-box;
 }
+.escondido {
+	display: none;
+}
 body {
 	background-color: #fb6b6b;
 }
